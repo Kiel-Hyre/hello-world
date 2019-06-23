@@ -1,0 +1,3 @@
+# sum all integers from 1 to 11
+# just testing since this is my first github
+print(sum(i for i in range(1,11)))
