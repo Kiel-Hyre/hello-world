@@ -22,4 +22,4 @@ def dc22(dict_arr,the_string):
         return None
     return bank
 
-print(dc23(dict_arr,the_string))
+print(dc22(dict_arr,the_string))
