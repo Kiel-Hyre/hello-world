@@ -7,21 +7,6 @@
 should return 5
 '''
 
-
-node1 = Node(0)
-node2 = Node(1)
-node3 = Node(0)
-node4 = Node(1)
-node5 = Node(0)
-node6,node7 = Node(1),Node(1)
-
-node1.left = node2
-node1.right = node3
-node3.left = node4
-node3.right = node5
-node4.left = node6
-node4.right = node7
-
 class Node :
     def __init__(self,data) :
         self.data = data
@@ -41,6 +26,19 @@ def unival(root,ctr = 0 ):
         return ctr + left + right
     return ctr 
     
+node1 = Node(0)
+node2 = Node(1)
+node3 = Node(0)
+node4 = Node(1)
+node5 = Node(0)
+node6,node7 = Node(1),Node(1)
+
+node1.left = node2
+node1.right = node3
+node3.left = node4
+node3.right = node5
+node4.left = node6
+node4.right = node7
 
 print(unival(node1))
 
